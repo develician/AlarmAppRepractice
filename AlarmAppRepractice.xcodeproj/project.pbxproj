@@ -13,6 +13,7 @@
 		DAE3E48D203A53DB00BB51EA /* AlarmAppRepractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAE3E48B203A53DB00BB51EA /* AlarmAppRepractice.xcdatamodeld */; };
 		DAE3E48F203A53DB00BB51EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE3E48E203A53DB00BB51EA /* Assets.xcassets */; };
 		DAE3E492203A53DB00BB51EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE3E490203A53DB00BB51EA /* LaunchScreen.storyboard */; };
+		DAE3E49A203A559D00BB51EA /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE3E499203A559D00BB51EA /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DAE3E48E203A53DB00BB51EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAE3E491203A53DB00BB51EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAE3E493203A53DB00BB51EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE3E499203A559D00BB51EA /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DAE3E490203A53DB00BB51EA /* LaunchScreen.storyboard */,
 				DAE3E493203A53DB00BB51EA /* Info.plist */,
 				DAE3E48B203A53DB00BB51EA /* AlarmAppRepractice.xcdatamodeld */,
+				DAE3E499203A559D00BB51EA /* ComposeViewController.swift */,
 			);
 			path = AlarmAppRepractice;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				DAE3E48D203A53DB00BB51EA /* AlarmAppRepractice.xcdatamodeld in Sources */,
 				DAE3E487203A53DB00BB51EA /* ViewController.swift in Sources */,
 				DAE3E485203A53DB00BB51EA /* AppDelegate.swift in Sources */,
+				DAE3E49A203A559D00BB51EA /* ComposeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S2R3M45L8;
 				INFOPLIST_FILE = AlarmAppRepractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dpaulb.AlarmAppRepractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S2R3M45L8;
 				INFOPLIST_FILE = AlarmAppRepractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dpaulb.AlarmAppRepractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
